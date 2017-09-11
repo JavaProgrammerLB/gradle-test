@@ -11,7 +11,7 @@ import java.io.IOException;
 public class HelloServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().print("Hello World");
+        resp.getWriter().print("Hello, World!");
     }
 
     @Override
